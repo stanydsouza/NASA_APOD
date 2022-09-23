@@ -5,4 +5,4 @@ Each day a different image or photograph of our fascinating universe is featured
 
 ## Compatibility
 
-This project is written in Swift 5 and requires Xcode 11 & above to build and run.
+This project is written in Swift 5 and requires Xcode 12 & above to build and run.
