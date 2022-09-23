@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773E5ABE28DD701200EB5DE6 /* CDApod+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E5ABC28DD701200EB5DE6 /* CDApod+CoreDataClass.swift */; };
+		773E5ABF28DD701200EB5DE6 /* CDApod+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E5ABD28DD701200EB5DE6 /* CDApod+CoreDataProperties.swift */; };
+		773E5AC228DD794D00EB5DE6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E5AC128DD794D00EB5DE6 /* Extensions.swift */; };
+		773E5AC628DD91AD00EB5DE6 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E5AC528DD91AD00EB5DE6 /* Spinner.swift */; };
+		773E5ACA28DDED0B00EB5DE6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773E5AC928DDED0B00EB5DE6 /* WebViewController.swift */; };
 		7762CB7A28DC5A1800FE9433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB7928DC5A1800FE9433 /* AppDelegate.swift */; };
-		7762CB7C28DC5A1800FE9433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB7B28DC5A1800FE9433 /* SceneDelegate.swift */; };
-		7762CB7E28DC5A1800FE9433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB7D28DC5A1800FE9433 /* ViewController.swift */; };
+		7762CB7E28DC5A1800FE9433 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB7D28DC5A1800FE9433 /* PictureViewController.swift */; };
 		7762CB8128DC5A1800FE9433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7762CB7F28DC5A1800FE9433 /* Main.storyboard */; };
 		7762CB8328DC5A1E00FE9433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7762CB8228DC5A1E00FE9433 /* Assets.xcassets */; };
 		7762CB8628DC5A1E00FE9433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7762CB8428DC5A1E00FE9433 /* LaunchScreen.storyboard */; };
+		7762CB8F28DC5AB100FE9433 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB8E28DC5AB100FE9433 /* APIService.swift */; };
+		7762CB9228DC624C00FE9433 /* APODService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9128DC624C00FE9433 /* APODService.swift */; };
+		7762CB9428DC8CB100FE9433 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9328DC8CB100FE9433 /* PersistentStorage.swift */; };
+		7762CB9728DC8EC100FE9433 /* NASA_APOD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9528DC8EC100FE9433 /* NASA_APOD.xcdatamodeld */; };
+		7762CB9A28DC970A00FE9433 /* APODModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9928DC970A00FE9433 /* APODModel.swift */; };
+		7762CB9C28DC976600FE9433 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9B28DC976600FE9433 /* Constants.swift */; };
+		7762CB9E28DC9BB200FE9433 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CB9D28DC9BB200FE9433 /* PictureViewModel.swift */; };
+		7762CBA128DCA6AE00FE9433 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7762CBA028DCA6AE00FE9433 /* DataRepository.swift */; };
+		8DC1985728DD85B8000CBBB2 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1985628DD85B8000CBBB2 /* FavouritesViewController.swift */; };
+		8DC1985A28DDAFDF000CBBB2 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1985928DDAFDF000CBBB2 /* DatePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		773E5ABC28DD701200EB5DE6 /* CDApod+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDApod+CoreDataClass.swift"; sourceTree = "<group>"; };
+		773E5ABD28DD701200EB5DE6 /* CDApod+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDApod+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		773E5AC128DD794D00EB5DE6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		773E5AC528DD91AD00EB5DE6 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		773E5AC928DDED0B00EB5DE6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7762CB7628DC5A1800FE9433 /* NASA_APOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA_APOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7762CB7928DC5A1800FE9433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7762CB7B28DC5A1800FE9433 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7762CB7D28DC5A1800FE9433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7762CB7D28DC5A1800FE9433 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		7762CB8028DC5A1800FE9433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7762CB8228DC5A1E00FE9433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7762CB8528DC5A1E00FE9433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7762CB8728DC5A1E00FE9433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7762CB8E28DC5AB100FE9433 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		7762CB9128DC624C00FE9433 /* APODService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODService.swift; sourceTree = "<group>"; };
+		7762CB9328DC8CB100FE9433 /* PersistentStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		7762CB9628DC8EC100FE9433 /* NASA_APOD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NASA_APOD.xcdatamodel; sourceTree = "<group>"; };
+		7762CB9928DC970A00FE9433 /* APODModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODModel.swift; sourceTree = "<group>"; };
+		7762CB9B28DC976600FE9433 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7762CB9D28DC9BB200FE9433 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		7762CBA028DCA6AE00FE9433 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		8DC1985628DD85B8000CBBB2 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		8DC1985928DDAFDF000CBBB2 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773E5AB728DD6DE600EB5DE6 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				773E5ABC28DD701200EB5DE6 /* CDApod+CoreDataClass.swift */,
+				773E5ABD28DD701200EB5DE6 /* CDApod+CoreDataProperties.swift */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		773E5AC728DDC1A100EB5DE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7762CB9D28DC9BB200FE9433 /* PictureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		773E5AC828DDCE7300EB5DE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7762CB7D28DC5A1800FE9433 /* PictureViewController.swift */,
+				8DC1985628DD85B8000CBBB2 /* FavouritesViewController.swift */,
+				8DC1985928DDAFDF000CBBB2 /* DatePickerViewController.swift */,
+				773E5AC928DDED0B00EB5DE6 /* WebViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7762CB6D28DC5A1700FE9433 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +113,56 @@
 			isa = PBXGroup;
 			children = (
 				7762CB7928DC5A1800FE9433 /* AppDelegate.swift */,
-				7762CB7B28DC5A1800FE9433 /* SceneDelegate.swift */,
-				7762CB7D28DC5A1800FE9433 /* ViewController.swift */,
+				773E5AC828DDCE7300EB5DE6 /* Views */,
+				773E5AC728DDC1A100EB5DE6 /* ViewModel */,
+				7762CB9F28DCA69300FE9433 /* Repository */,
+				7762CB9828DC96EC00FE9433 /* Model */,
+				7762CB9028DC622F00FE9433 /* API */,
+				7762CB8D28DC5A9800FE9433 /* Utilities */,
 				7762CB7F28DC5A1800FE9433 /* Main.storyboard */,
 				7762CB8228DC5A1E00FE9433 /* Assets.xcassets */,
 				7762CB8428DC5A1E00FE9433 /* LaunchScreen.storyboard */,
 				7762CB8728DC5A1E00FE9433 /* Info.plist */,
+				7762CB9528DC8EC100FE9433 /* NASA_APOD.xcdatamodeld */,
 			);
 			path = NASA_APOD;
+			sourceTree = "<group>";
+		};
+		7762CB8D28DC5A9800FE9433 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7762CB8E28DC5AB100FE9433 /* APIService.swift */,
+				7762CB9328DC8CB100FE9433 /* PersistentStorage.swift */,
+				7762CB9B28DC976600FE9433 /* Constants.swift */,
+				773E5AC128DD794D00EB5DE6 /* Extensions.swift */,
+				773E5AC528DD91AD00EB5DE6 /* Spinner.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7762CB9028DC622F00FE9433 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7762CB9128DC624C00FE9433 /* APODService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7762CB9828DC96EC00FE9433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7762CB9928DC970A00FE9433 /* APODModel.swift */,
+				773E5AB728DD6DE600EB5DE6 /* CoreDataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7762CB9F28DCA69300FE9433 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7762CBA028DCA6AE00FE9433 /* DataRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7762CB7E28DC5A1800FE9433 /* ViewController.swift in Sources */,
+				8DC1985728DD85B8000CBBB2 /* FavouritesViewController.swift in Sources */,
+				8DC1985A28DDAFDF000CBBB2 /* DatePickerViewController.swift in Sources */,
+				7762CB9428DC8CB100FE9433 /* PersistentStorage.swift in Sources */,
+				7762CB9728DC8EC100FE9433 /* NASA_APOD.xcdatamodeld in Sources */,
+				7762CBA128DCA6AE00FE9433 /* DataRepository.swift in Sources */,
+				7762CB9E28DC9BB200FE9433 /* PictureViewModel.swift in Sources */,
+				7762CB7E28DC5A1800FE9433 /* PictureViewController.swift in Sources */,
+				773E5ABF28DD701200EB5DE6 /* CDApod+CoreDataProperties.swift in Sources */,
+				773E5AC628DD91AD00EB5DE6 /* Spinner.swift in Sources */,
 				7762CB7A28DC5A1800FE9433 /* AppDelegate.swift in Sources */,
-				7762CB7C28DC5A1800FE9433 /* SceneDelegate.swift in Sources */,
+				7762CB9228DC624C00FE9433 /* APODService.swift in Sources */,
+				7762CB8F28DC5AB100FE9433 /* APIService.swift in Sources */,
+				773E5ACA28DDED0B00EB5DE6 /* WebViewController.swift in Sources */,
+				773E5ABE28DD701200EB5DE6 /* CDApod+CoreDataClass.swift in Sources */,
+				7762CB9A28DC970A00FE9433 /* APODModel.swift in Sources */,
+				7762CB9C28DC976600FE9433 /* Constants.swift in Sources */,
+				773E5AC228DD794D00EB5DE6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZAPWMH5QD2;
+				DEVELOPMENT_TEAM = KG9A6VF22Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NASA_APOD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,7 +428,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZAPWMH5QD2;
+				DEVELOPMENT_TEAM = KG9A6VF22Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NASA_APOD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -360,6 +472,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7762CB9528DC8EC100FE9433 /* NASA_APOD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7762CB9628DC8EC100FE9433 /* NASA_APOD.xcdatamodel */,
+			);
+			currentVersion = 7762CB9628DC8EC100FE9433 /* NASA_APOD.xcdatamodel */;
+			path = NASA_APOD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7762CB6E28DC5A1700FE9433 /* Project object */;
 }
